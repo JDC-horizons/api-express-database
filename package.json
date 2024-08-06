@@ -1,7 +1,7 @@
 {
   "name": "api_express_with_nodepostgres",
   "version": "1.0.0",
-  "description": "",
+  "description": "In this workshop we're going to look at how to use express with a postgres database.",
   "main": "src/index.js",
   "scripts": {
     "start": "npx nodemon src/index.js",
@@ -11,10 +11,10 @@
   "dependencies": {
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
-    "dotenv": "^16.3.1",
-    "express": "^4.18.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
     "faker": "^5.5.3",
-    "morgan": "1.10.0",
+    "morgan": "^1.10.0",
     "pg": "8.6.0",
     "pg-promise": "^11.5.4"
   },
@@ -23,5 +23,11 @@
     "nodemon": "^3.0.2",
     "supertest": "^6.3.3"
   },
-  "keywords": []
+  "keywords": [],
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
 }
